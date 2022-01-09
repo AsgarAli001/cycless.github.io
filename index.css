@@ -1,0 +1,996 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+header{
+    padding-bottom: 2em;
+    background: url(images/slider-img.png) no-repeat;
+    height: 132vh;
+}
+
+header nav a img.logo-img {
+    height: 50px;
+}
+
+header nav.navbar.navbar-expand-lg {
+    padding-top: 2em;
+}
+
+header ul.navbar-nav.ml-auto .nav-item .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Georgia', sans-serif;
+}
+
+header button {
+    border: none;
+    background: none;
+}
+header button a {
+    color: #fff;
+    background: #e34f4b;
+    padding: 7px 2em;
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: 'Georgia', sans-serif;
+}
+header ul.navbar-nav.ml-auto {
+    padding-right: 2em;
+}
+
+header button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1.text-center.header-heading {
+    color: #e34f4b;
+    margin-top: 4rem;
+    font-size: 65px;
+    font-family: 'Georgia', sans-serif;
+    font-weight: 700;
+}
+
+.special-features-section{
+    padding: 3em 0;
+}
+
+ .title-tag h1 {
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+ .title-tag p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+.special-features-section img.img-fluid.featured-cycle {
+    height: 420px;
+    width: 100%;
+}
+
+.special-features-section img.img-fluid.featured-icon {
+    margin: 1em 0;
+}
+
+.special-features-section .featured-cycle-details {
+    margin-top: 3em;
+}
+
+.special-features-section .featured-cycle-details h5 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.special-features-section .featured-cycle-details h5 span sup {
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+    top: -14px;
+}
+.special-features-section .featured-cycle-details p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.special-features-section img.img-fluid.cycles-type:hover {
+    opacity: 1;
+    height: 165px;
+}
+
+.special-features-section img.img-fluid.cycles-type {
+    padding: 0 36px;
+    margin-top: 5em;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.special-features-section p.cycle-type-name {
+    color: #8a8a8a;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}    
+
+.special-features-section .featured-cycle-details p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.parts-section {
+    background: #f4f4f4;
+    padding: 4em 0;
+}
+
+section.parts-section .title-tag h1 {
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.special-features-section .title-tag p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-bottom: 2em;
+}
+section.parts-section .title-tag p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-bottom: 2em;
+}
+
+.frame-section{
+    height: 100vh;
+    background: url(images/dynamic-frame.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.frame-section img.frame-parts {
+    padding-top: 8em;
+    width: 100%;
+}
+
+.frame-details img {
+    margin-top: -5em;
+    height: 220px;
+    width: 50%;
+}
+
+.frame-details h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin: 12px 0;
+    color: #fff;
+    font-weight: 600;
+}
+
+.frame-details {
+    font-family: 'Ubuntu', sans-serif;
+}
+.frame-details p {
+    color: #fff;
+    margin: 2em 0;
+    font-size: 14px;
+}
+.frame-section{
+    padding: 3em 0;
+}
+
+.frame-details img {
+    margin-top: 0;
+    height: 120px;
+    width: 60%;
+}
+
+
+.frame-details img {
+    width: 60%;
+}
+
+.frame-details h3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.frame-details h3>i {
+    font-size: 27px;
+}
+.frame-details h3 {
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.frame-details h3>p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+p.deatils-text {
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.frame-details h3 span sup {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: -16px;
+}
+.frame-details button {
+    background: none;
+    border: none;
+}
+
+.frame-details button a {
+    font-size: 21px;
+    color: #e54f50;
+    text-decoration: none;
+    background: #fff;
+    padding: 13px 32px;
+    border-radius: 40px;
+    margin: 0;
+}
+.frame-section img.frame-part{
+    width: 100%;
+    height: 100%;
+}
+
+.frame-details img {
+    margin-top: 0;
+    height: 70px;
+    width: 30%;
+}
+
+.portofolio-section{
+    padding: 3em 0;
+}
+
+.porto-img img {
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+}
+.porto-img img:hover{
+    z-index: -1;
+}
+section.portofolio-section .title-tag h1 {
+    margin-bottom: 8px;
+}
+section.portofolio-section .title-tag p {
+    font-size: 14px;
+    margin-bottom: 8em;
+}
+.portofolio-section  img.img-fluid.porto-2 {
+    top: 150px;
+}
+.portofolio-section img.img-fluid.porto-3 {
+    top: 70px;
+}
+.portofolio-section img.img-fluid.porto-4 {
+    top: -40px;
+}
+
+
+
+
+/* .part-section .part-2 img.{
+
+} */
+.parts-section .part-2 img{
+    opacity: 0.5;
+}
+
+.parts-section img.img-fluid.frame-up-img {
+    height: 120px;
+}
+
+.parts-section img.img-fluid.base-img {
+    opacity: 0;
+}
+
+.parts-section .part-2 img:hover{
+    opacity: 1;
+}
+
+
+
+.parts-section .part-2:hover img.frame-up-img{
+    z-index: 99999999;
+}
+.parts-section .part-2:hover img{
+    opacity: 1;
+}
+
+.parts-section .part-2:hover {
+    position: relative;
+    height: 150% !important;
+}
+
+.parts-section .part-2 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.parts-section .part-2 p {
+    margin-top: 1em;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.parts-section .part-2 a {
+    color: #d42220;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 14px;
+    border-bottom: 2px solid #d42220;
+    text-decoration: none;
+}
+
+
+.parts-section .part-2 h3, a, p {
+    opacity: 0;
+}
+
+.parts-section .part-2:hover p{
+    opacity: 1;
+}
+.parts-section .part-2:hover a{
+    opacity: 1;
+}
+.parts-section .part-2:hover h3{
+    opacity: 1;
+}
+
+.parts-section img.img-fluid.frame-up-img:hover {
+    height: 200px;
+}
+
+.frame-details p{
+    opacity: 1;
+}
+.frame-details h3{
+    opacity: 1;
+}
+.frame-details a{
+    opacity: 1;
+}
+
+.special-features-section p{
+    opacity: 1;
+}
+
+header a{
+    opacity: 1;
+}
+
+.portofolio-section .porto-img .portofolio-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.portofolio-section .porto-img .portofolio-img{
+    z-index: -1;
+}
+
+.portofolio-section .porto-img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.portofolio-section .porto-img .overlay:hover{
+    background-color: #d65a52bf;
+    z-index: 1;
+}
+
+
+.portofolio-section .overlay:hover img {
+    z-index: 999999;
+    position: absolute;
+}
+
+.portofolio-section .overlay .range-img  {
+    opacity: 0;
+}
+.portofolio-section .overlay:hover .range-img{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    height: 65px;
+    width: 65px;
+    opacity: 1;
+    object-fit: contain;
+}
+.portofolio-section .overlay p  {
+    opacity: 0;
+}
+.portofolio-section .overlay:hover p{
+    position: absolute;
+    top: 52%;
+    left: 33%;
+    opacity: 1;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+
+.overlay.overlay-1 {
+    top: 150px !important;
+    position: absolute;
+}
+.overlay.overlay-2 {
+    top: 70px !important;
+    position: absolute;
+}
+
+.overlay.overlay-3 {
+    top: -40px !important;
+    position: absolute;
+}
+
+
+.customer-section{
+    margin-top: 10em;
+    padding: 4em 0;
+    background: #ededed;
+}
+.customer-section  p{
+    opacity: 1;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.carousel-item .card p {
+    padding: 45px 50px 0;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.carousel-item .card h6 {
+    padding: 16px 0 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.carousel-item .card {
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-item i {
+    position: relative;
+    top: -35px;
+    text-align: center;
+    left: 156px;
+    font-size: 60px;
+    color: #fff;
+}
+
+.carousel-item img {
+    margin-top: 0;
+    padding: 0 125px;
+}
+
+
+.carousel-item h5 {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+
+.carousel-item .card p {
+    padding: 45px 50px;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#carouselExampleIndicators ol li.slider-next {
+    margin-top: 6em;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    padding: 7px;
+    position: relative;
+    top: 50px;
+    background: none;
+    border: 2px solid #434343;
+}
+
+#carouselExampleIndicators ol li.slider-next:hover {
+    background: #434343;
+}
+
+.carousel-item .card h6 {
+    padding: 0px 0 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.carousel-item .card p.card-text {
+    padding: 32px 50px;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.carousel-item .card p.card-3 {
+    padding: 40px 50px;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.carousel-item img {
+    margin-top: 0;
+    padding: 0 130px;
+}
+
+.customer-section .title-tag.text-center {
+    margin-bottom: 3rem;
+}
+
+.product-section{
+    padding: 3em 0;   
+}
+
+.product-section img{
+    height: 450px;
+    width: 100%;
+}
+
+.product-section p{
+    opacity: 1;
+}
+
+.product-section .color-list li a{
+    opacity: 1;
+}
+
+.product-section .color-list li a.blue-color{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: #041e57;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+
+.product-section .color-list li a.red-color{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: #ff0800;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.product-section .color-list li a.black-color{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: #000;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.product-section ul.color-list {
+    padding: 0;
+    list-style: none;
+}
+
+.product-section ul.color-list li {
+    display: inline-block;
+    /* padding-right: 1.5em; */
+    margin: 1em 0;
+}
+
+.product-section .color-list li.color-item-1:hover {
+    border: 3px solid #041e57;
+    padding: 4px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+}
+.product-section .color-list li.color-item-2:hover {
+    border: 3px solid #ff0800;
+    padding: 4px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+}
+.product-section .color-list li.color-item-3:hover {
+    border: 3px solid #000;
+    padding: 4px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+}
+
+
+.product-section ul.color-list li {
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 16px;
+}
+button.item-no{
+    opacity: 1;
+    display: inline-block;
+    background: none;
+    border: none;
+}
+
+button.item-no a {
+    opacity: 1;
+    display: inline-block;
+    background: none;
+    border: 1px solid #c0c0c0;
+    padding: 2px 76px 4px;
+    border-radius: 40pc;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+button.item-cart{
+    display: inline-block;
+    border: none;
+    background: none;
+}
+button.item-cart a {
+    opacity: 1;
+    display: inline-block;
+    background: #ff0800;
+    border: none;
+    padding: 11px 72px 8px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+i.original-price {
+    color: #a2a2a2;
+    text-decoration: line-through;
+    padding: 0 16px;
+    font-size: 16px;
+}
+
+span.price-1{
+    font-size: 16px;
+}
+
+i.discount-price {
+    color: #e65252;
+    font-size: 16px;
+    
+}
+
+span.price-2 {
+    color: #e65252;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.product-section h5 {
+    margin-top: 1em;
+    font-size: 17px;
+    padding: 0 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.product-media-list li a{
+    opacity: 1;
+}
+
+ul.product-media-list {
+    padding: 0 1rem;
+    list-style: none;
+}
+
+ul.product-media-list li {
+    display: inline-block;
+    padding-right: 12px;
+    font-size: 18px;
+}
+
+ul.product-media-list li a {
+    color: #636363;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.product-section i.fas.fa-plus {
+    font-size: 11px;
+    padding: 0 5px;
+}
+
+.product-section h5 {
+    margin-top: 1em;
+    font-size: 19px;
+    padding: 0 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-section p {
+    opacity: 1;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1.5em 0px;
+    font-size: 15px;
+}
+
+footer{
+    background: #202020;
+    padding: 2em 0;
+}
+
+footer .footer-section  h5{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 12px;
+}
+
+footer .footer-info-list li a{
+    opacity: 1;
+    text-decoration: none;
+    
+}
+
+footer .footer-section ul.footer-info-list li a span {
+    color: #777;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+footer .footer-section ul.footer-info-list li a span:hover{
+    color: #e7524c;
+}
+footer .footer-section ul.footer-info-list li a span:hover span.location-text {
+    color: #e7524c;
+    text-decoration: none;
+}
+
+footer .footer-section ul.footer-info-list {
+    padding: 0;
+    list-style: none;
+}
+
+footer .footer-section ul.footer-info-list li a img {
+    position: relative;
+    left: -15px;
+}
+
+footer .footer-section ul.footer-info-list li {
+    margin-bottom: 14px;
+}
+
+footer .footer-section span.location-text {
+    position: relative;
+    left: 20px;
+}
+
+footer .footer-section .foo-main li a {
+    opacity: 1;
+    color: #717777;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+footer .footer-section .foo-main li a:hover{
+    color: #e7524c;
+}
+
+footer .footer-section ul.foo-main li {
+    margin-bottom: 7px;
+}
+
+
+footer .footer-section ul.foo-main {
+    padding: 0;
+    list-style: none;
+}
+
+
+footer .footer-section .footer-media li a {
+    opacity: 1;
+}
+
+footer .footer-section ul.footer-media {
+    padding: 0;
+    list-style: none;
+}
+
+footer .footer-section ul.footer-media li {
+    display: inline-block;
+    padding-right: 1em;
+}
+
+footer .footer-section ul.footer-media li a {
+    color: #000;
+    font-size: 19px;
+}
+
+footer .footer-section ul.footer-media li a i {
+    padding: 9px 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+footer .footer-section ul.footer-media li a i.fab.fa-facebook-f {
+    padding: 9px 12px;
+}
+
+footer .footer-section ul.footer-media{
+    margin-top: 2em ;
+}
+
+
+
+section.portofolio-section .title-tag p {
+    font-size: 14px;
+    margin-bottom: 8em;
+    opacity: 1;
+}
+
+.product-section h5 {
+    margin-top: 1em;
+    font-size: 19px;
+    padding: 0 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+.footer-bottom {
+    background: #e34f4b;
+}
+
+.footer-bottom p {
+    opacity: 1;
+    text-align: center;
+    color: #fff;
+    font-family: 'Ubuntu' sans-serif;
+    padding: 16px 0;
+    margin: 0;
+}
+section.parts-section .title-tag p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-bottom: 2em;
+    opacity: 1;
+}
+
+
+header {
+    padding-bottom: 2em;
+    background: url(images/slider-img.png) no-repeat;
+    height: 135vh;
+}
+
+header ul.navbar-nav.ml-auto .nav-item .nav-link {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+header button a {
+    color: #fff;
+    background: #e34f4b;
+    padding: 7px 2em;
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.special-features-section img.img-fluid.featured-cycle {
+    height: auto;
+    width: 100%;
+}
+
+i.fas.fa-check {
+    position: relative;
+    left: -30px;
+    color: #fff;
+    top: -11px;
+    opacity: 0;
+}
+
+.product-section ul.color-list li:hover i.fa-check {
+    opacity: 1;
+    position: relative;
+    color: #fff;
+    left: 9px;
+    top: -34px;
+}
+
+.product-section ul.color-list li {
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 0;
+}
+
+.product-section ul.color-list li:hover i.fa-check {
+    opacity: 1;
+    position: relative;
+    color: #fff;
+    left: 5px;
+    top: -28px;
+    font-size: 23px;
+}
+
+.product-section ul.color-list li {
+    display: inline-grid;
+    margin-top: 1em;
+    margin-right: 20px;
+}
+
+button.item-no a {
+    opacity: 1;
+    display: inline-block;
+    background: none;
+    border: 1px solid #c0c0c0;
+    padding: 1px 54px 4px;
+    border-radius: 40pc;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+header ul.navbar-nav.ml-auto .nav-item .nav-link:hover {
+    color: #e34f4b;
+    transition: all;
+    transition-duration: 1s;
+}
+
+header button a:hover {
+    background: #fff;
+    color: #e34f4b;
+    transition: all;
+    transition-duration: 2s;
+}
+
+
+header {
+    object-fit: contain;
+}
